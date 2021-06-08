@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: grey;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+}
+
+.navbar ul{
+    display: flex;
+    margin-left: 50px;
+}
+
+.navbar ul li{
+    font-weight: bold;
+    list-style: none;
+    font-size: 20px;
+    line-height: 70px;
+    margin-left: 30px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.navbar ul li a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: brown;
+}
+
+.row1{
+    height: 80vh;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.book1{
+    height: 70vh;
+    width: 30vw;
+    border: 1px solid black;
+    margin-top: 30px;
+
+}
+
+.book2{
+    height: 70vh;
+    width: 30vw;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+.book3{
+    height: 70vh;
+    width: 30vw;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+
+.row2{
+    height: 80vh;
+    /* background-color: greenyellow; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.book4{
+    height: 70vh;
+    width: 30vw;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+.book5{
+    height: 70vh;
+    width: 30vw;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+.book6{
+    height: 70vh;
+    width: 30vw;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+.book-name{
+    text-align: center;
+    font-size: 25px;
+    margin: 5px 0;
+}
+
+.desc{
+    text-align: justify;
+    font-size: 15px;
+    padding: 0 10px;
+}
+
+.inbox{
+    display: flex;
+    margin: 10px 0;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.view{
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 7px 33px;
+}

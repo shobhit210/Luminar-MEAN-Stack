@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.nav h1{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    padding: 15px 0px;
+}
+
+.row{
+    height: 30vh;
+    width: 100%;
+    /* background-color: yellow; */
+    /* border: 1px solid black; */
+    /* margin-top: 10px; */
+}
+
+.col{
+    width: 8%;
+    height: 80%;
+    background-color: teal;
+    float: left;
+    margin-left: 20px;
+}
+
+.firstrow{
+    padding-left: 380px;
+}
+
+.secondrow{
+    padding-left: 240px;
+}
+
+.thirdrow{
+    padding-left: 100px;
+}
+
+.col-1{
+    background-color: grey;
+}
+
+.col-2{
+    background-color: rgb(53, 99, 53);
+}
+
+.col-3{
+    background-color: rgb(79, 190, 79);
+}
+
+.col-4{
+    background-color: rgb(21, 187, 21);
+}
+
+.col-5{
+    background-color: rgb(150, 194, 150);
+}
+
+.col-6{
+    background-color: rgb(206, 219, 17);
+}
+
+.col-7{
+    background-color: rgb(190, 155, 57);
+}
+
+.col-8{
+    background-color: hotpink;
+}
+
+.col-9{
+    background-color: rgb(22, 24, 156);
+}
+
+.col-10{
+    background-color: rgb(90, 13, 77);
+}
+
+.col-11{
+    background-color: rgb(11, 207, 11);
+}
+
+.col-12{
+    background-color: rgb(211, 20, 20);
+}
+
+.col-13{
+    background-color: rgb(81, 162, 165);
+}
+
+.col-14{
+    background-color: rgb(146, 118, 42);
+}
+
+.col-15{
+    background-color: rgb(233, 133, 2);
+}
+
+.col-16{
+    background-color: rgb(235, 150, 144);
+}
+
+.col-17{
+    background-color: rgb(179, 33, 33);
+}
+
+.col-18{
+    background-color: rgb(125, 183, 221);
+}
+
+.col-19{
+    background-color: rgb(28, 148, 156);
+}
+
+.col-20{
+    background-color: rgb(146, 98, 131);
+}
+
+.col-21{
+    background-color: rgb(134, 21, 129);
+}

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+
+body{
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;padding: 0;
+}
+
+.top-on{
+    background-color: #5e068a;
+    /* color: white; */
+    width: 100vw;
+    height: 6vh;
+}
+
+.top-left{
+    font-size: 15px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 6vh;
+    float: left;
+    /* margin-left: 50px; */
+}
+
+.top-right{
+    font-size: 15px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 6vh;
+    float: right;
+    /* margin-right: 50px; */
+}
+
+.nav-back{
+    background-color: rgb(17, 219, 101);
+}
+
+.navbar-nav li a{
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-nav li a:hover{
+    color: #5e068a;
+}
+
+.cb1{
+    background-color: #5e068a;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border: 0;
+    border-radius: 30px;
+    padding: 20px 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.cb1:hover{
+    background-color: #6c517a;
+}
+
+.column-cent{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.cardbutton{
+    background-color: #5e068a;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border: 0;
+    border-radius: 10px;
+    padding: 15px 25px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p a{
+    text-transform: capitalize;
+    color: #5e068a;
+    font-weight: bold;
+}
+
+p a:hover{
+    color: #6c517a;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.vio-col{
+    color: #5e068a;
+}
+
+#btn1{
+    color: #5e068a;
+    border-color: #5e068a;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 15px 25px;
+    font-weight: bold;
+}
+
+#btn1:hover{
+    color: white;
+    border-color: #5e068a;
+    background-color: #5e068a;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.trial{
+    
+}

@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+
+.main-head{
+    text-align: center;
+    color: #e60e52;
+
+
+}
+
+sub{
+    color: cornflowerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.main{
+    border: 1px solid white;
+    width: 200px;
+    height: 350px;
+    background-color: greenyellow;
+    text-align: center;
+    color: white;
+    float:left;
+}
+
+.pocof1{
+    background-color: hotpink;
+}
+
+.oneplus{
+    background-color: rgb(70, 29, 219);
+}
+
+.main h1{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}

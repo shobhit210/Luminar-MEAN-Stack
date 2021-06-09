@@ -3,7 +3,7 @@
 
 
 body{
-    background-color: black;
+    /* background-color: black; */
     font-family: 'Montserrat', sans-serif;
     margin: 0;padding: 0;
 }
@@ -46,6 +46,18 @@ body{
 
 .navbar-nav li a:hover{
     color: #5e068a;
+}
+
+.gray{
+    color: #9e6ab9;
+}
+
+.shadow:hover{
+    box-shadow: 20px 20px;
+}
+
+.paraht{
+    line-height: 25px;
 }
 
 .cb1{
@@ -109,17 +121,17 @@ p a:hover{
     color: #5e068a;
     border-color: #5e068a;
     background-color: transparent;
-    border-radius: 20px;
+    border-radius: 40px;
     padding: 15px 25px;
     font-weight: bold;
+    font-size: 14px;
 }
 
 #btn1:hover{
     color: white;
     border-color: #5e068a;
     background-color: #5e068a;
-    border-radius: 20px;
-    padding: 10px 20px;
+    
 }
 
 .parent{
@@ -128,6 +140,14 @@ p a:hover{
     justify-content: center;
 }
 
-.trial{
-    
+.modalbutton{
+    background-color: #5e068a;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border: 0;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
 }

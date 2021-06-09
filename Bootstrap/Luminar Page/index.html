@@ -122,8 +122,8 @@
     <section class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 mt-5">
-                <h3 class="mt-3 mb-3 vio-col">Luminar Technolab</h3>
-                <p>Luminar Technolab is an IT Finishing School located near Infopark - Cochin, focused on providing
+                <h3 class="mt-3 mb-3 vio-col">Luminar <span class="gray">Technolab</span></h3>
+                <p class="paraht">Luminar Technolab is an IT Finishing School located near Infopark - Cochin, focused on providing
                     advanced level software training to Students and by helping them to get placed in IT companies. We
                     are a team of IT professionals who have experience in IT sector for more than 15 plus years. Our
                     fresher’s career foster programs are Big Data Training, Data Science Training, Data Analytics
@@ -131,6 +131,83 @@
                     designed in such a way to match with the current industry requirements. Our Vision is to provide
                     100% placements to students those who enroll with us for our specialized courses.</p>
                 <button class="cb1 mt-3">Learn More</button>
+
+                <!-- Modal Start -->
+
+                <button type="button" class="cb1 ms-4" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    style="border: 0;">
+                    Contact Us
+                </button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Get Training Quote for free</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- Modal Form -->
+
+                                <form action="">
+                                    <div class="container">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="exampleInputtext1"
+                                                aria-describedby="emailHelp" placeholder="Name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp" placeholder="Email">
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="exampleInputtext1"
+                                                aria-describedby="emailHelp" placeholder="Phone Number">
+                                        </div>
+                                        <div class="mb-3">
+                                            <select name="courses" id="courses" class="form-control">
+                                                <option value="0" disabled="disabled">Select Course Interested In
+                                                </option>
+                                                <option value="1">Data Science - ML - AI - Big Data with Cloud & Tableau
+                                                </option>
+                                                <option value="2">Python Django - Angular- Full Stack Web Development
+                                                    Expert</option>
+                                                <option value="3">Software Testing Specialist</option>
+                                                <option value="4">MEARN Stack Web Development Expert - Angular & React
+                                                </option>
+                                                <option value="5">Business Analytics - Power BI & Tableau</option>
+                                                <option value="6">Android Developer Expert Training In Kochi- Flutter
+                                                </option>
+                                                <option value="7">DATA SCIENCE - ML - AI - & TABLEAU</option>
+
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="exampleInputtext1"
+                                                aria-describedby="emailHelp" placeholder="City">
+                                        </div>
+                                        <div class="mb-3">
+                                            <textarea name="comments" id="comments" class="form-control" cols="30"
+                                                rows="10" placeholder="Comments"></textarea>
+                                        </div>
+
+                                    </div>
+                                </form>
+
+                                <!-- Modal Form End -->
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="modalbutton">SUBMIT QUERY</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Modal End -->
+
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6">
                 <img src="Images/sec2.jpg" alt="" class="mt-5">
@@ -147,12 +224,12 @@
 
     <div class="container">
         <div class="row">
-            <h3 class="column-cent vio-col">OUR COURSES</h3>
+            <h3 class="column-cent vio-col">OUR <span class="gray">COURSES</span></h3>
         </div>
         <!-- megacard -->
         <div class="row mb-3">
             <div class="col-sm-12 col-md-12 col-lg-12">
-                <div class="card mb-3">
+                <div class="card mb-3 shadow">
                     <div class="row g-0">
                         <div class="col-md-6">
                             <img src="Images/megacard.jpg" alt="..." height="100%" width="100%">
@@ -181,7 +258,7 @@
 
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
-                <div class="card h-100">
+                <div class="card h-100 shadow">
                     <img src="Images/card1.jpg" class="card-img-top" alt="card1">
                     <div class="card-body">
                         <h5 class="card-title vio-col">Python Django - Angular- Full Stack Web Development Expert</h5>
@@ -198,7 +275,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100">
+                <div class="card h-100 shadow">
                     <img src="Images/card2.jpg" class="card-img-top" alt="card2">
                     <div class="card-body">
                         <h5 class="card-title vio-col">Software Testing Specialist</h5>
@@ -215,7 +292,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100">
+                <div class="card h-100 shadow">
                     <img src="Images/card3.jpg" class="card-img-top" alt="card3">
                     <div class="card-body">
                         <h5 class="card-title vio-col">MEARN Stack Web Development Expert - Angular & React</h5>
@@ -239,17 +316,11 @@
 
     <!-- view all course button section -->
 
-    <div class="container mt-5 mb-5">
-        <div class="row">
-            <div class="col"></div>
-            <div class="col-3"><button id="btn1">View All Courses</button></div>
-            <div class="col"></div>
-        </div>
-    </div>
+    
 
 
-    <div class="parent">
-    <button id="btn1">View All Courses</button>
+    <div class="parent mt-5 mb-5">
+        <button id="btn1">View All Courses</button>
     </div>
 
 

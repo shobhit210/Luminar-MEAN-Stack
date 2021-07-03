@@ -34,6 +34,16 @@ console.log(weather);
 
 
 
+// Sorting
+function districtSort(data){
+    return Object.entries(data).sort((dist1,dist2)=>dist2[1]-dist1[1]);  //Converting weather from object to array
+    //[[tvm,27],[kollam,27],[kottayam,28],...] similar array is created. We get two arrays list1 & list2 here.
+}
+
+console.log(districtSort(weather));
+
+
+
 // Steps to print district name and maximum temperature value:
 // 1.Declare an empty object weather = {}
 // 2.Run for loop in given temperature Array.
